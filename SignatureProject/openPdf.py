@@ -9,7 +9,7 @@ def extract_text_from_pdf(filepath):
 
     return text
 
-pdf_path = "Rulebook_CodeRed.pdf"
+pdf_path = "Airbnb Policies.pdf"
 extracted_text = extract_text_from_pdf(pdf_path)
 
 with open("extracted_text.txt","w",encoding="utf-8") as file :
